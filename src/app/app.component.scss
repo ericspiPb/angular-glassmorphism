@@ -1,0 +1,16 @@
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120vh;
+}
+
+.card {
+  width: 50vw;
+  height: 50vh;
+  border: 5px solid rgba(255, 140, 0, 0.5);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

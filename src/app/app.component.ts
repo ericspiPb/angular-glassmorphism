@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { SpinnerSize } from './loader/spinner/spinner.size.enum';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'glassmorphism';
+  spinnerSize: SpinnerSize = SpinnerSize.Default;
 }

@@ -1,0 +1,13 @@
+/* slightly transparent fallback */
+.loading-blur {
+  background-color: rgba(0, 0, 0, .5);
+}
+
+/* if backdrop support: very transparent and blurred */
+@supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+  .loading-blur {
+    background-color: rgba(0, 0, 0, .5);
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+  }
+}
